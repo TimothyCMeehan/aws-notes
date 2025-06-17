@@ -29,7 +29,7 @@
 ## EC2 Savings Plans
 - Get a discount based on long-term usage (up to 72% - same as RIs)
 - Commit to a certain type of usage ($10/hour for 1 or 3 years)
-- Usage beyond EC@ Savings Plans are billed at the On-Demand price
+- Usage beyond EC2 Savings Plans are billed at the On-Demand price
 - Locked to a specific instance family & AWS region (e.g., M5 in us-east-1)
 - Flexible across:
     - Instance Size (e.g., m5.xlarge, m5.2xlarge)
@@ -37,7 +37,7 @@
     - Tenancy (Host, Dedicated, Default)
 ## EC2 Spot Instances
 - Can get a discount of up to 90% compared to On-demand
-- Instances that you can 'lose' at any point of time if your max proce is less than the current spot proce
+- Instances that you can 'lose' at any point of time if your max price is less than the current spot price
 - The MOST cost-efficient instances in AWS
 - Useful for workloads that are resilient to failure
     - Batch jobs

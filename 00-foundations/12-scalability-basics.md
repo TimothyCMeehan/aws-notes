@@ -13,7 +13,7 @@
 - Horizontal Scalability means increasing the number of instances / systems for your application
 - Horizontal scaling implies distributed systems.
 - This is very common for web applications / modern applications
-- It's easy to horizontally scale thanks to the cloud offerings such as EC2 with Auto Caling Groups and Load Balancers
+- It's easy to horizontally scale thanks to the cloud offerings such as EC2 with Auto Scaling Groups and Load Balancers
 ## High Availability
 - High Availability usually goes hand and hand with horizontal scaling
 - High availability means running your application / system in at least 2 Availability Zones

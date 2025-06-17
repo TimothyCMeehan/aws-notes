@@ -19,7 +19,7 @@
         - Static DNS (URL)
     - Network Load Balancer (ultra-high performance, allows TCP) - Layer 4
         - TCP / UDP protocols
-        - High Performance: millions of requests persecond
+        - High Performance: millions of requests per second
         - Static IP through Elastic IP
     - Gateway Load Balancer - Layer 3 
         - GENEVE Protocol on IP Packets

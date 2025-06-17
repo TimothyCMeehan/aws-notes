@@ -7,7 +7,7 @@
 
 ## Permissions
 - Users or Groups can be assigned JSON documents called policies
-- Htese policies define the permissions of the users
+- These policies define the permissions of the users
 - In AWS you apply the least privilege principle: don't give more permissions than a user needs
 
 ## Creating a New User

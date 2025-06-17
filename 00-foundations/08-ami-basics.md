@@ -10,5 +10,5 @@
     - An AWS Marketplace AMI: an AMI someone else made (and potentially sells)
 - EC2 Image Builder
     - Used to automate the creation of Virtual Machines or container images
-    - => Automate the creation, maintenance, validation, and testing of EC@ AMIs
+    - => Automate the creation, maintenance, validation, and testing of EC2 AMIs
     - Can be run on a schedule (weekly, whenever packages are updated, etc...)

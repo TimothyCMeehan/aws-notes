@@ -16,7 +16,7 @@
 - Firewall rules: security group
 - Bootstrap script (configure at first launch): EC2 User Data
 ## EC2 User Data
-- It is possible to bootstrap our instance usinng EC2 User data Script
+- It is possible to bootstrap our instance using EC2 User data Script
 - bootstrapping means launching commands when a machine starts
 - The script is only run once at the instance first start
 - EC2 user data is used to automate boot tasks such as:
