@@ -1,0 +1,37 @@
+# Amazon RDS Overview
+- RDS stands for Relational Database Service
+- A managed DB service for DBs that use SQL as a query language
+- Allows you to create databases in the cloud that are managed by AWS
+    - Postgres
+    - MySQL
+    - MariaDB
+    - Oracle
+    - Microsoft SQL Server
+    - IBM DB2
+    - Aurora (AWS Proprietary database)
+- Advantage of using RDS versus deploying DB on EC2
+    - RDS is a managed service:
+        - Automated provisioning, OS patching
+        - Continuous backups and restore specific timestamp (Point in Time Restore)
+        - Monitoring dashboards
+        - Read replicas for improved read performance
+        - Multi AZ setup for DR (Disaster Recovery)
+        - Maintenance windows for upgrades
+        - Scaling capability (Vertical and horizontal)
+        - Storage backed by EBS
+    - BUT you can't SSH into your instances
+## RDS Deployments
+- Read Replicas:
+    - Scale the read workload of your DB
+    - Can create up to 15 read Replicas
+    - Data is only written to the main DB
+- Multi-AZ
+    - Failover in case of AZ outage (high availability)
+    - Data is only read/written to the main database
+    - Can only have one other AZ as failover
+- Multi-Region
+    - Multi-Region (Read Replicas)
+    - Disaster recovery in case of region issue
+    - Local performance for global reads
+    - Replication cost
+
