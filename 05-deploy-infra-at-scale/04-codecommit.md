@@ -1,0 +1,12 @@
+# AWS CodeCommit
+- Before pushing the application code servers, it needs to be stored somewhere
+- Developers usually store code in a repository, using the Git technology
+- A famous public offering is GitHub, AWS' competing product is CodeCommit
+- CodeCommit:
+    - Source-control service that hosts Git-based repositories
+    - Makes it easy to collaborate with others on code
+    - the code changes are automatically versioned
+- Benefits:
+    - Fully managed
+    - Scalable & highly available
+    - Private, Secure, Integrated with AWS
