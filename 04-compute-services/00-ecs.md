@@ -1,5 +1,5 @@
 # ECS
-- ECS = Elastic COntainer Service
+- ECS = Elastic Container Service
 - Launch Docker containers on AWS
 - You must provision & maintain the infrastructure (the EC2 instances)
 - AWS takes care of starting and stopping the containers

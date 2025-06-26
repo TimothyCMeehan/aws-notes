@@ -1,0 +1,12 @@
+# Cloud Integrations Overview
+- Wehn we start deploying multiple applications, they will inevitably need to communicate with one another
+- there are two patterns of application communication
+    - Synchronous communications (application to application)
+    - Asynchronous / event based (application to queue to application)
+- Synchronous between applications can be problematic if there are sudden spikes of traffic
+- What if you need to suddenly encode 1000 videos but usually it's 10?
+- In that case, it's better to decouple your applications:
+    - using SQS: queue model
+    - using SNS: pub/sub model
+    - using Kinesis: real-time data streaming model
+- These services can scale independently from our application

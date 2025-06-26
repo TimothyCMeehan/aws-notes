@@ -1,0 +1,12 @@
+# Why make global applications
+- A global application is an application deployed in multiple geographies
+- On AWS: this could be in Regions and / or Edge Locations
+- Decreased Latency
+    - Latency is the time it takes for a network packet to reach a server
+    - It takes time for a packet from Asia to reach the US
+    - Deploy your applications closer to your users to decrease latency, better experience
+- Disaster Recovery (DR)
+    - If an AWS region goes down (earthquake, storms, etc...)
+    - You can fail-over to another region and ahve your application still working
+    - A DR plan is important to increase the availability of your application
+- Attack protection: distributed global infrastructure is harder to attack
