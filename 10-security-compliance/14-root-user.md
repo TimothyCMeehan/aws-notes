@@ -1,0 +1,13 @@
+# Root user privileges
+- Root user = Account Owner
+- Has complete access to all AWS services and resources
+- Actions that can be performed only by the root user:
+    - change account settings
+    - view certain tax invoices
+    - close AWS account
+    - restore IAM user permissions
+    - Change or cancel your AWS Support Plan
+    - Register as a seller in the Reserved Instance Marketplace
+    - Configure an Amazon S3 bucket to enable MFA
+    - Edit or delete an Amazon S3 bucket policy that includes an invalid VPC ID or VPC endpoint ID
+    - Sign up for GovCloud

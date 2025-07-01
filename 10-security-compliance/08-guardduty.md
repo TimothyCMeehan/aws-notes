@@ -1,0 +1,12 @@
+# Amazon GuardDuty
+- Intelligent Threat discovery to protect your AWS Account
+- Uses Machine Learning algorithms, anomaly detection, 3rd party data
+- One click to enable (30 days trial), no need to install software
+- Input data includes
+    - CloudTrail Event Logs
+    - VPC Flow Logs
+    - DNS Logs
+    - Optional Features
+- Can setup EventBridge rules to be notified in case of findings
+- EventBridge rules can target AWS Lambda or SNS
+- Can protect against CryptoCurrency Attacks

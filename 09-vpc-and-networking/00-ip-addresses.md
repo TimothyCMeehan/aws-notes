@@ -1,0 +1,12 @@
+# IP Addresses in AWS
+- IPv4 - Internet Protocol version 4 (4.3 Billion Addresses)
+    - Public IPv4 - can be used on the Internet
+    - EC2 instance get a new public IP address every time you stop then start it (default)
+    - Private IPv4 - can be ussed on private networks (LAN) such as internal AWS networking
+    - Private IPv4 is fixed for EC2 Instances even if you start/stop them
+- Elastic IP - allows you to attach a fixed public IPv4 address to EC2 instance
+- Note: all public IPv4 on AWS will be charged $0.005 per hour (including EIP)
+    - Free Tier: 750 hours usage per month
+- IPv6 - Internet Protocol version 6 (3.4 x 10 to the 38th Addresses)
+    - Every IP address is public in AWS (no private range)
+    - Free

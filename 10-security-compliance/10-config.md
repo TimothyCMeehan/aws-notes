@@ -1,0 +1,11 @@
+# AWS Config
+- Helps with auditing and recording compliance of your AWS resources
+- Helps record configurations and changes over time
+- Possibility of storing configuration data in S3
+- Question that can be resolved by AWS Config:
+    - Is there unrestricted SSH access to my security groups?
+    - Do my buckets have any public access?
+    - How has my ALB configuration changed over time?
+- You can receive alerts (SNS notifications) for any changes
+- AWS Config is per-region service
+- Can be aggregated across regions and accounts
