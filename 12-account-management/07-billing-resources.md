@@ -1,0 +1,29 @@
+# AWS Pricing Calculator
+- Estimate the cost for your solution architecture
+## Billing Dashboard
+- Cost Allocation Tags
+    - Use cost allocation tags to track your AWS costs on a detailed level
+    - AWS generated Tags
+        - Automatically applied to the resources you create
+        - Starts wi Prefix aws:
+    - User-defined tags
+        - Defined by user
+        - starts with prefix user:
+- Tagging and Resource Groups
+    - Tags are used for organizing resources
+    - Free naming, common tags are: Name, Environment, Team...
+    - Tags can be used to create Resource Groups
+        - Create, maintain, and view a collection of resources that share common tags
+        - Manage these tags using Tag Editor
+- Cost and Usage Reports
+    - Dive Deeper into your AWS costs and Usage
+    - The AWS Cost and Usage REport contains the most comprehensive set of AWS cost and usage data available, including metadata about AWS services, pricing, and reservations
+    - The AWS Cost and Usage Report list AWS usage for each service category used by an account and is IAM users in hourly or daily line items, as well as any tags that you have activated for cost allocation purposes.
+    - Can be integrated with Athena, Redshift, ir QuickSight
+- Cost Explorer
+    - Visualize, understand, and manage your AWS costs and usage over time
+    - Create custom reports that analyze cost and usage data
+    - Analyze your data at a high level: total costs and usage across all accounts
+    - Or monthly, hourly, resource level granularity
+    - Choose an optimal Savings Plan (to lower prices on your bill)
+    - Forecast usage up to 12 months based on previous usage

@@ -1,0 +1,12 @@
+# Amazon Rekognition
+- Find objects, people, text, scenes in images and videos using ML
+- facial analysis and facial search to do user verification, people counting
+- create a database of 'familiar faces' or compare against celebrities
+- Use cases:
+    - labeling
+    - Content Moderation
+    - Text Detection
+    - Face Detection and Analysis (gender, age range, emotions...)
+    - Face Search and Verification
+    - Celebrity Recognition
+    - Pathing (ex: for sports game analysis)

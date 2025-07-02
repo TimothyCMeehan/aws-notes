@@ -1,0 +1,94 @@
+# Pricing Models in AWS
+- AWS has 4 pricing models:
+    - Pay as you go: pay for what you use, remain agile, responsive, meet scale demands
+    - Save when you reserve: minimize risks, predictably manage budgets, comply with long-term requirements
+    - Pay less by using more: volume-based discounts
+    - Pay less as AWS grows
+## Free services & Free Tier in AWS
+- IAM
+- VPC
+- Consolidated Billing
+- Elastic Beanstalk - pay for what gets created
+- Cloud Formation - pay for what gets created
+- Auto Scaling Groups - pay for what gets created
+- Free Tier
+## Compute Pricing - EC2
+- Only charged for what you use
+- Number of Instances
+- Instance configuration:
+    - Physical capacity
+    - Region
+    - OS and software
+    - Instance Type
+    - Instance size
+- ELB running time and amount of data processed
+- Detailed monitoring
+- Instance Types
+    - On-demand instances
+        - Minimum of 60 seconds
+        - Pay per second (Linux/Windows) or per hour (other)
+    - Reserved instances
+        - Up to 75% discount compared to On-demand on hourly rate
+        - 1 or 3 year commitment
+        - All upfront, partial upfront, no upfront
+    - Spot Instances
+        - Up to 90% discount compared to On-demand on hourly rate
+        - Bid for unused capacity
+    - Dedicated Host
+        - On-demand
+        - Reservation for 1 year or 3 year commitment
+    - Savings plans as an alternative to save on sustained usage
+## Lambda & ECS
+- Lambda
+    - Pay per call
+    - Pay per duration
+- ECS
+    - EC2 Launch Type Model: No additonal fees, you pay for AWS resources stored and created in your application
+- Fargate
+    - Fargate Launch Type Model: Pay for vCPU and memory resources allocated to your applications in your containers
+## Storage Pricing - S3
+- Storage class: S3 Standard, S3 Infrequent Access, S3 One-Zone IA, S3 Intelligent Tiering, S3 Glacier and S3 Glacier Deep Archive
+- Number and Size of objects: Price can be tiered (based on volume)
+- Number and type of requests
+- Data transfer OUT of the S3 region
+- S3 Transfer Acceleration
+- Lifecycle transitions
+- Similar service: EFS (pay per use, has infequent access & lifestyle rules)
+## EBS
+- Volume type (based on performance)
+- Storage volume in GB per month provisioned
+- IOPS:
+    - General Purpose SSD: Included
+    - Provisioned IOPS SSD: Provisioned amount in IOPS
+    - Magnetic: number of requests
+- Snapshots
+    - Added data cost per GB per month
+- Data transfer
+    - Outbound data transfer are tiered for volume discounts
+    - Inbound is free
+## Database Pricing - RDS
+- Per hour billing
+- Database characteristics:
+    - Engine
+    - Size
+    - Memory class
+- Purchase type
+    - On-demand
+    - Reserved instances (1 or 3 years) with optional upfront
+- Backup Storage: There is no additional charge for backup storage up to 100% of your total database storage for a region
+- Additional storage (per GB per month)
+- Number of input and output requests per month
+- Deployment type (storage and I/O are available)
+    - single AZ
+    - Multiple AZ
+- Data transfer:
+    - Outbound data transfer are tiered for volume discounts
+    - inbound is free
+## Content Delivery - CloudFront
+- Pricing is different across different geographical regions
+- Aggregated for each edge location, then applied to your bill
+- Data Transfer Out (volume discount)
+- Number of HTTP/HTTPS requests
+## Networking Costs in AWS per GB - Simplified
+- Use Private IP instead of Public IP for good savings and better network performance
+- Use same AZ for maximum savings (at the cost of high availability)
