@@ -1,0 +1,6 @@
+# Step Functions
+- Build serverless visual workflow to orchestrate your Lambda functions
+- Features: sequence. parallel, conditions, timeouts. error handling, ...
+- Can integrate with EC2, ECS, on-prem servers, API gateway, SQS Queues, etc...
+- Possibility of implementing human approval feature
+- Use cases: order fulfillment, data processing, web applications, any workflow
